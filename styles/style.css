@@ -2,7 +2,30 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /* Navbar */
-nav{
-  display: block;
+.float {
+  float: left;
+  
+}
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  margin: 2rem;
+  display: inline-block;
+}
+
+.right-nav {
+  position: inherit;
+  right: 0;
+}
+
+.middle-nav {
+  position: inherit;
 }
