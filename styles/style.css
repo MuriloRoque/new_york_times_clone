@@ -17,7 +17,9 @@ nav {
   justify-content: space-between;
   height: 4.8rem;
   align-items: center;
-  margin-left: 2rem;
+  padding-left: 2rem;
+  border-bottom: 0.1rem solid #e2e2e2;
+  
 }
 
 .left-nav{
@@ -49,3 +51,63 @@ nav {
   border: 0.1rem solid #326891;
   border-radius: 0.3rem;
 }
+
+/* Main */
+
+main {
+  display:grid;
+  padding-top: 10rem;
+  margin: 0 auto;
+  max-width: 90%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(2rem, auto);
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/* main div:nth-child(even) {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+main div:nth-child(odd) {
+  background-color: pink;
+  border: 1px solid black;
+} */
+
+.main-title {
+  grid-column: 2 / 5;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  color: #121212;
+  font-family: georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.allan-guth {
+  grid-row: 2 / 5;
+  grid-column: 1 / 7;
+  justify-self: center;
+}
+
+.allan-guth img {
+  width: 100rem;
+}
+
+.allan-guth-desc {
+  grid-row: 5;
+  grid-column: 1 / 7;
+  justify-self: center;
+  font-size: 1.5rem;
+  width: 100rem;
+  font-family: georgia,'times new roman',times,serif;
+  color: #666;
+}
+
+.allan-guth-desc span {
+  font-size: 1.2rem;
+  color: #888;
+}
+
