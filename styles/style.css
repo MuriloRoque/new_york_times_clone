@@ -7,10 +7,6 @@ html {
 }
 
 /* Navbar */
-.float {
-  float: left;
-  
-}
 
 nav {
   position: fixed;
@@ -18,9 +14,38 @@ nav {
   color: #333;
   width: 100%;
   display: flex;
-  margin-top: 1rem;
   justify-content: space-between;
+  height: 4.8rem;
+  align-items: center;
+  margin-left: 2rem;
 }
 
+.left-nav{
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
+.left-nav i{
+  margin-right: 1.7rem;
+}
 
+.middle-nav{
+  display: flex;
+}
+
+.right-nav{
+  display: flex;
+  margin-right: 4rem;
+}
+
+.right-nav button{
+  background-color: #567b95;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 0.1rem solid #326891;
+  border-radius: 0.3rem;
+}
