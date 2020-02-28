@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: georgia,'times new roman',times,serif;
 }
 
 html {
@@ -65,23 +66,11 @@ main {
   padding-bottom: 1.5rem;
 }
 
-
-/* main div:nth-child(even) {
-  background-color: aqua;
-  border: 1px solid black;
-}
-
-main div:nth-child(odd) {
-  background-color: pink;
-  border: 1px solid black;
-} */
-
 .main-title {
   grid-column: 2 / 5;
   font-size: 4rem;
   line-height: 4.8rem;
   color: #121212;
-  font-family: georgia,'times new roman',times,serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -102,7 +91,6 @@ main div:nth-child(odd) {
   justify-self: center;
   font-size: 1.5rem;
   width: 100rem;
-  font-family: georgia,'times new roman',times,serif;
   color: #666;
 }
 
@@ -111,3 +99,51 @@ main div:nth-child(odd) {
   color: #888;
 }
 
+.author {
+  grid-row: 6;
+  grid-column: 2 / 7;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  align-self: baseline;
+  padding-top: 4rem;
+}
+
+.date{
+  grid-row: 7;
+  grid-column: 2 / 4;
+  align-self: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.social-icons{
+  grid-row: 7;
+  grid-column: 4 / 6;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.social-icons i{
+  margin-right: 2rem;
+}
+
+#chat{
+  display: unset;
+}
+
+#chat .fa-stack-1x{
+  font-size: 60%;
+  left: 0.3rem;
+  bottom: 0.2rem;
+}
+
+.main-text{
+  grid-row: 8;
+  grid-column: 2 / 6;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #333;
+}
