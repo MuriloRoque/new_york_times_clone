@@ -147,3 +147,27 @@ main {
   line-height: 3rem;
   color: #333;
 }
+
+/* .acc-details::before {
+  content : "";
+  position: absolute;
+  height  : 0.1rem;
+  width   : 50%;
+  border-bottom:1px solid magenta;
+} */
+
+.acc-details {
+  grid-row: 9;
+  grid-column: 3 / 5;
+  border-top: 0.1rem solid rgb(204, 204, 204);
+  border-bottom: 0.1rem solid rgb(204, 204, 204);
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  padding: 3.6rem 0 3.6rem 0;
+}
+
+.acc-details a {
+  text-decoration: none;
+}
