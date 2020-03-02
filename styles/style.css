@@ -318,7 +318,7 @@ i{
 
 .more-content {
   grid-row: 13;
-  grid-column: 1 / 6;
+  grid-column: 1 / 5;
   border-top: 0.1rem solid black;
 }
 
@@ -338,12 +338,11 @@ i{
 }
 
 .content-grid div {
-  width:30rem;
+  width: 100%
 }
 
 .content-grid img {
   width:100%;
-  
 }
 
 .content-grid h4 {
@@ -364,3 +363,41 @@ time {
   font-weight: 500;
 }
 
+.editor-master-grid {
+  grid-row: 14;
+  grid-column: 1 / 5;
+}
+
+.editor-master-grid h2 {
+  padding-top:2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.editor-master-grid .content-grid {
+  border-bottom: none;
+}
+
+.most-popular {
+  grid-row: 13 / 15;
+  grid-column: 5 / 7;
+  border-top: 0.1rem solid black;
+  width: 100%;
+  margin-left: 3rem;
+}
+
+.most-popular h2 {
+  padding-top:2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  color: rgb(51, 51, 51);
+}
+
+.most-popular h4 {
+  border-top: 0.1rem solid rgb(204, 204, 204);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  padding: 2.5rem 0 2.5rem 0;
+}
