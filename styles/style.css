@@ -125,7 +125,7 @@ main {
   justify-self: flex-end;
 }
 
-.social-icons i{
+i{
   margin-right: 2rem;
 }
 
@@ -147,14 +147,6 @@ main {
   line-height: 3rem;
   color: #333;
 }
-
-/* .acc-details::before {
-  content : "";
-  position: absolute;
-  height  : 0.1rem;
-  width   : 50%;
-  border-bottom:1px solid magenta;
-} */
 
 .acc-details {
   grid-row: 9;
@@ -303,4 +295,22 @@ main {
 .version {
   font-size:1.2rem;
   line-height: 1.6rem;
+}
+
+.main-text-3 button {
+  background-color: #567b95;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 0.1rem solid #326891;
+  border-radius: 0.3rem;
+  width: 30rem;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
