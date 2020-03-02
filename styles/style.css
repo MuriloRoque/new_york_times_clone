@@ -266,3 +266,41 @@ main {
 .legend {
   padding-top: 2rem;
 }
+
+.main-text-3 {
+  grid-row: 12;
+  grid-column: 2 / 6;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #333;
+}
+
+.main-text-3 iframe {
+  width:56rem;
+  height:31.5rem;
+}
+
+.main-text-3 figcaption {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.main-text-3 span{
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.main-text-3 h2 {
+  font-weight: 700;
+}
+
+.main-text-3 img {
+  width: 60rem;
+  height: 31.5rem;
+}
+
+.version {
+  font-size:1.2rem;
+  line-height: 1.6rem;
+}
