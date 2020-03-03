@@ -30,8 +30,8 @@ html {
   cursor: pointer;
 }
 
-.left-nav i {
-  margin-right: 1.7rem;
+i {
+  margin-right: 2rem;
 }
 
 .middle-nav {
@@ -135,10 +135,6 @@ main {
   cursor: pointer;
 }
 
-i {
-  margin-right: 2rem;
-}
-
 #chat {
   display: unset;
 }
@@ -238,7 +234,6 @@ i {
 .inflation h1 {
   font-weight: bold;
   font-size: 2rem;
-  font-weight: 700;
   color: #000;
 }
 
@@ -423,6 +418,48 @@ time {
   cursor: pointer;
 }
 
+.delivery h4 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.ny-icon h4 {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.chess h4 {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.cooking h4 {
+  margin-top: 0;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.font h4 {
+  font-size: 1.3rem;
+}
+
+.bottom-nav h2 {
+  font-size: 1.5rem;
+}
+
+.expand h2 {
+  font-weight: 700;
+}
+
+.middle-footer h4:hover,
+.left-nav h2:hover,
+.more-content h2:hover {
+  text-decoration: underline;
+}
+
 .content-grid h4:hover,
 .most-popular h4:hover {
   color: #666;
@@ -468,24 +505,12 @@ footer {
   cursor: pointer;
 }
 
-.middle-footer h4:hover,
-.left-nav h2:hover,
-.more-content h2:hover {
-  text-decoration: underline;
-}
-
 .ny-icon,
 .chess,
 .cooking,
 .delivery {
   display: flex;
   cursor: pointer;
-}
-
-.delivery h4 {
-  margin-left: 1rem;
-  margin-top: 1rem;
-  font-weight: 700;
 }
 
 .delivery i {
@@ -498,20 +523,8 @@ footer {
   height: 2rem;
 }
 
-.ny-icon h4 {
-  margin-top: 0.2rem;
-  margin-left: 1rem;
-  font-weight: 700;
-}
-
 .chess img {
   height: 2rem;
-}
-
-.chess h4 {
-  margin-top: 0.2rem;
-  margin-left: 1rem;
-  font-weight: 700;
 }
 
 .cooking img {
@@ -519,18 +532,8 @@ footer {
   height: 2rem;
 }
 
-.cooking h4 {
-  margin-top: 0;
-  margin-left: 1rem;
-  font-weight: 700;
-}
-
 .miscellaneous {
   border-bottom: 0.2rem solid #e2e2e2;
-}
-
-.font h4 {
-  font-size: 1.3rem;
 }
 
 .bottom-footer {
@@ -562,17 +565,9 @@ footer {
   cursor: pointer;
 }
 
-.bottom-nav h2 {
-  font-size: 1.5rem;
-}
-
 .expand {
   display: flex;
   margin-right: 8rem;
-}
-
-.expand h2 {
-  font-weight: 700;
 }
 
 .expand h3 {
