@@ -286,7 +286,7 @@ i {
   height: 31.5rem;
 }
 
-.main-text-3 figcaption {
+.main-text-3 .caption {
   font-size: 1.5rem;
   color: #666;
 }
