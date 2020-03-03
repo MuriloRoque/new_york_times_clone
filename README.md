@@ -5,6 +5,9 @@ This is a clone of the New York Times Page.
 This page shows a copy of the New York Times article "Space Ripples Reveal
 Big Bang’s Smoking Gun".
 
+
+![screenshot](images/screenshot.png)
+
 ## Built with
 HTML and CSS
 

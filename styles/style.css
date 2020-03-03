@@ -454,6 +454,15 @@ time {
   font-weight: 700;
 }
 
+.middle-footer h2 {
+  font-weight: 700;
+}
+
+.middle-footer h4 {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
 .middle-footer h4:hover,
 .left-nav h2:hover,
 .more-content h2:hover {
@@ -494,15 +503,6 @@ footer {
 .middle-footer div {
   margin-right: 7rem;
   font-size: 1.5rem;
-}
-
-.middle-footer h2 {
-  font-weight: 700;
-}
-
-.middle-footer h4 {
-  margin: 1rem 0;
-  cursor: pointer;
 }
 
 .ny-icon,
