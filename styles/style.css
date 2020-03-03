@@ -9,7 +9,7 @@ html {
 
 /* Navbar */
 
-nav {
+.top-nav {
   position: fixed;
   background-color: #fff;
   color: #333;
@@ -27,6 +27,7 @@ nav {
   display: flex;
   font-size: 1.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .left-nav i{
@@ -35,6 +36,7 @@ nav {
 
 .middle-nav{
   display: flex;
+  cursor: pointer;
 }
 
 .right-nav{
@@ -51,6 +53,7 @@ nav {
   font-size: 1.1rem;
   border: 0.1rem solid #326891;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 /* Main */
@@ -83,6 +86,7 @@ main {
 
 .allan-guth img {
   width: 100rem;
+  cursor: pointer;
 }
 
 .allan-guth-desc {
@@ -107,6 +111,11 @@ main {
   color: #333;
   align-self: baseline;
   padding-top: 4rem;
+  cursor: pointer;
+}
+
+.author:hover{
+  text-decoration: underline;
 }
 
 .date{
@@ -123,6 +132,7 @@ main {
   grid-column: 4 / 6;
   align-self: flex-end;
   justify-self: flex-end;
+  cursor: pointer;
 }
 
 i{
@@ -185,11 +195,13 @@ i{
   margin-left: 9rem;
   font-size: 1.6rem;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .editor-pick img {
   width: 8rem;
   float: left;
+  cursor: pointer;
 }
 
 .main-text-2 {
@@ -291,11 +303,16 @@ i{
 .main-text-3 img {
   width: 60rem;
   height: 31.5rem;
+  cursor: pointer;
 }
 
 .version {
   font-size:1.2rem;
   line-height: 1.6rem;
+}
+
+.version a:hover{
+  text-decoration: none;
 }
 
 .main-text-3 button {
@@ -308,6 +325,7 @@ i{
   border: 0.1rem solid #326891;
   border-radius: 0.3rem;
   width: 30rem;
+  cursor: pointer;
 }
 
 .comments {
@@ -343,12 +361,14 @@ i{
 
 .content-grid img {
   width:100%;
+  cursor: pointer;
 }
 
 .content-grid h4 {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2.2rem;
+  cursor: pointer;
 }
 
 .content-grid figcaption {
@@ -400,6 +420,11 @@ time {
   font-weight: 500;
   line-height: 2.2rem;
   padding: 2.5rem 0 2.5rem 0;
+  cursor: pointer;
+}
+
+.content-grid h4:hover, .most-popular h4:hover{
+  color: #666;
 }
 
 footer {
@@ -413,17 +438,23 @@ footer {
   margin-top: 0.3rem;
   padding-top: 0.8rem;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .float {
   float: left;
 }
 
+#margin-subscribe {
+  margin-right: 0;
+  border-left: 0.2rem solid #e2e2e2;
+  padding-left: 1rem;
+}
+
 .middle-footer div {
-  margin-right: 4rem;
+  margin-right: 8.9rem;
   font-size: 1.5rem;
 }
 
@@ -432,31 +463,39 @@ footer {
 }
 
 .middle-footer h4 {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.middle-footer h4:hover, .left-nav h1:hover , .more-content h2:hover {
+  text-decoration: underline;
 }
 
 .ny-icon, .chess, .cooking, .delivery {
 display: flex;
+cursor: pointer;
 }
 
 .delivery h4 {
-  margin-top: 0;
   margin-left: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
 }
 
 .delivery i {
   margin-right: 0;
+  margin-top: 1rem;
 }
 
 .ny-icon img {
   width: 2rem;
   height: 2rem;
-  margin-top: 1rem;
 }
 
 .ny-icon h4 {
-  margin-top: 1.2rem;
+  margin-top: 0.2rem;
   margin-left: 1rem;
+  font-weight: 700;
 }
 
 .chess img {
@@ -466,6 +505,7 @@ display: flex;
 .chess h4 {
   margin-top: 0.2rem;
   margin-left: 1rem;
+  font-weight: 700;
 }
 
 .cooking img {
@@ -476,7 +516,63 @@ display: flex;
 .cooking h4 {
   margin-top: 0;
   margin-left: 1rem;
+  font-weight: 700;
 }
 
+.miscellaneous{
+  border-bottom: 0.2rem solid #e2e2e2;
+}
+
+.font h4 {
+  font-size: 1.3rem;
+}
+
+.bottom-footer {
+  padding: 0 8rem;
+  display: flex;
+  padding-top: 1rem;
+  border-top: 0.1rem solid #e2e2e2;
+  clear: both;
+  justify-content: space-evenly;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 9rem;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+  padding-left: 2rem;
+  border-top: 0.1rem solid #000;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.bottom-nav h1 {
+  font-size: 1.5rem;
+}
+
+.expand {
+  display: flex;
+  margin-right: 8rem;
+}
+
+.expand h1 {
+  font-weight: 700;
+}
+
+.expand h2 {
+  margin-left: 5rem;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
 
 
