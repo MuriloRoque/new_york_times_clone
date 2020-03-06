@@ -20,15 +20,16 @@ You will be redirected to a copy of the New York Times Page. You can read that v
 ## Authors
 Rose Wanjohi
 
-Github: @blackpintz
-Twitter: @blackpintz
+Github: @blackpintz <br>
+Twitter: @blackpintz <br>
 Linkedin: https://www.linkedin.com/in/rose-wanjohi-923726193/
 
 Murilo Roque Paiva da Silva
 
-Github: @MuriloRoque
-Twitter: @MuriloRoquePai1
-Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/
+Github: @MuriloRoque <br>
+Twitter: @MuriloRoquePai1 <br>
+Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/ <br>
+Available for hire? YES
 
 ## 🤝 Contributing
 
